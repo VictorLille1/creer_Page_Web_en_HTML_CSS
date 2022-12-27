@@ -1,12 +1,19 @@
+body {
+    background-color: #1F2039;
+}
+
+
+
 a {
-    color: black;
+    color: #242424;
     text-decoration: none;
     font-size: 1em;
     font-family: 'Manrope', sans-serif;
 }
 
-.important {
-    color: #A5B4FC;
+em {
+    color: #a5b4fc;
+    font-style: normal;
 }
 
 h1 {
@@ -22,4 +29,21 @@ p {
 ul {
     font-size: 1em;
     font-family: 'Manrope', sans-serif;
-} 
+}
+
+.enTete, .piedDePage  {
+    background-color: white;
+}
+
+p, h2, ul {
+    color: #F9F8FF;
+}
+
+.redirection {
+    background: linear-gradient(#8e86b5, #acaeed);
+}
+
+.redirection a {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
