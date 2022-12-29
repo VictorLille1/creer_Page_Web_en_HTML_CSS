@@ -1,15 +1,32 @@
+* {
+  margin: 0;
+}
+
+
+
 body {
   font-family: 'Manrope', sans-serif;
   font-size: 1em;
   background-color: #1f2039;
 }
 
+header,
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
 
 a {
   color: #242424;
   text-decoration: none;
   background-color: white;
   border-radius: 50px;
+}
+
+section{
+  padding: 80px;
 }
 
 
@@ -42,6 +59,7 @@ li {
 .carre-contenu {
   border-bottom: 1px solid #A5B4FC;
   border-right: 1px solid #A5B4FC;
+  padding: 50px;
 }
 
 .cta {
@@ -61,4 +79,17 @@ a:hover {
 
 .lien-icone:hover {
   opacity: 0.5;
+}
+
+.contenu-apropos{
+  width: 85%;
+  margin: auto;
+}
+
+.carre-contenu h2{
+  margin-top: 30px;
+}
+
+.carre-contenu ul{
+  margin-top: 30px;
 }
